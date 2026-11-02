@@ -18,12 +18,29 @@ Episode 1 assets are *not* touched — they live in `public/images/` (see bottom
 
 ---
 
-## 2. Global look
+## 2. Global look — LOCKED TO THE REFERENCE PLATES (do not drift)
 
-- Strictly **hand-drawn 2D anime illustration / hand-painted background art**.
-- Character style: Ufotable character-sheet look — fine clean line art, soft dimensional cel shading, real fabric texture (matte handloom cotton vs. glossy silk with zari sheen).
-- Background style: Makoto Shinkai / CoMix Wave / Ufotable — rich hand-painted texture, cinematic ambient light, deep realistic shadow, dramatic skies.
-- Interiors: Studio Ghibli warmth (Pechi Paati's hut, lantern light, dust motes).
+**The scene renders must look like they were painted by the same hand as the reference plates in
+`public/Characters/` and `public/Locations/`.** Those plates are the style bible. This is the
+corrected style; earlier cartoony scene attempts were wrong and were deleted.
+
+**The look:** detailed semi-realistic 2D anime painting. Soft, natural, closely observed rendering
+with restrained saturation, realistic skin with real texture (pores, sun weathering, fine wrinkles),
+muted earthy palette (terracotta, ochre, indigo, olive, brass), soft realistic light falloff, gentle
+grain, and a subtle painterly finish over clean fine line work. It reads as an animated feature
+background/character painting, not a children's cartoon.
+
+**Hard bans on style words** — never write these into a scene prompt:
+`cartoon`, `Ghibli`, `gouache`, `chibi`, `cel-shaded`, `thick outlines`, `flat shading`,
+`bright saturated colours`, `glossy plastic`.
+
+**Instead always specify:** "render in exactly the same style and rendering quality as the attached
+reference image — semi-realistic 2D anime painting, realistic skin texture, soft natural lighting,
+muted earthy colour palette, fine clean line work, subtle painterly grain, cinematic depth".
+- Character style must match `Characters/char_*.png` rendering.
+- Backgrounds/interiors must match `Locations/bg_setting_*.png` rendering.
+- Always attach the relevant character/location plate as an **image reference** on every scene call;
+  text alone drifts badly.
 - All frames **16:9 widescreen**, delivered 1672×941, stored as PNG8 (characters/locations) or quality-88 JPEG (scenes/contact sheets) to keep the repo light.
 - Characters sit on a **neutral warm-grey studio ground** with a decorative nameplate on the left panel.
 - Two-panel character sheets: **full-body standing pose left, close-up bust right**.
@@ -77,6 +94,21 @@ Adults:
 | **D. Street-lamp lane** | Deep night | Conical lamp on wooden pole, golden cone with moths, wet puddles mirroring light, mud/stone compound walls, red-tiled homes, leaning bicycle + clay urn, overarching banyan/neem, starry indigo sky | `Locations/bg_setting_d_street_lamp_night.png` |
 | **E. Pechi Paati's hut interior** | Night, lantern | Bamboo rafters, palm thatch, red-oxide lower walls, cow-dung floor, hanging brass hurricane lantern over rope cot, stone aattukal, saree shelf, brass andaa, palm baskets, moonlight through thatch gap | `Locations/bg_setting_e_paati_hut_interior.png` |
 | **F. Neighbour's tiled house** | Post-rain morning | Faded seafoam-green house, white window borders, dark shutters, wet terracotta tiles, mirror-like puddles, kolam mandala on damp stone, stone thinnai with pillars, clouds parting to golden sun | `Locations/bg_setting_f_neighbour_house_postrain.png` |
+
+## 6b. Scene prompt template (use verbatim)
+
+> Render in exactly the same style, finish and rendering quality as the attached reference image(s):
+> **semi-realistic 2D anime painting**, realistic skin and fabric texture, soft natural lighting, muted
+> earthy colour palette, fine clean line work, subtle painterly grain, cinematic depth of field.
+> Do not make it cartoonish, do not simplify shapes, do not brighten the palette.
+> [SHOT TYPE + CHARACTERS pasted from section 5 + SETTING + PROPS + MOOD]
+> 1990s Tamil Nadu, no modern objects, no text, no watermark, full-bleed edge-to-edge 16:9,
+> not photoreal, not 3D.
+
+Rules:
+- Scene renders are **JPEG, `Episode_2/sceneNN.jpg`**, 16:9.
+- Always attach: the character sheet(s) for anyone in frame + the matching location plate.
+- Character continuity outranks composition: if a face/outfit would not match the sheet, restage the shot.
 
 ## 7. Contact sheets
 
