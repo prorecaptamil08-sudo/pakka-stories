@@ -1,0 +1,769 @@
+{
+  "project": "Pakka Stories",
+  "total_shots": 81,
+  "completed_shots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+  ],
+  "next_shot": null,
+  "generation_mode": "Text-only prompts; do not attach reference images. No option choices.",
+  "style": "Full-bleed 16:9 polished 2D cinematic anime, Ufotable-quality crisp linework, vibrant dimensional cel shading, deep dramatic shadows, expressive anime eyes, HDR cinematic lighting and strong rim light. Authentic 1990s Tamil Nadu clothing and props. One focal point; readable faces; modest clothing and natural non-sexualized child proportions. No 3D, photoreal faces, sketching, cross-hatching, elemental effects, modern objects, watermarks or borders.",
+  "reference_precedence": "Use the established character reference designs when old draft shot descriptions conflict. Explicit story changes such as Nila’s Diwali dress and bare-foot insert shots override the usual outfit.",
+  "character_locks": {
+    "Nila": "Age 5; warm dusky-brown skin, large bright brown eyes, tiny black pottu, glossy center-parted black twin braids with faded red bows. Marigold-yellow puff-sleeve blouse and crimson ankle-length pleated skirt with thin gold hem; brown two-strap sandals. From shot 75 use mustard-yellow cotton pavadai-sattai with coffee-brown flower prints instead, retaining face, hair and age.",
+    "Shanmugam": "Age 44; weathered dusky-brown skin, warm wise brown eyes, swept-back salt-and-pepper hair, thick grey-black curved mustache and short trimmed salt-and-pepper goatee. Faded off-white half-sleeve shirt and white cotton veshti with thin maroon border, brown leather chappals. White cotton banian only where explicitly scripted.",
+    "Sivagami": "Age 38; warm dusky-tan skin, kind brown eyes, maroon bindi, black low side-bun with faint silver streaks. Bottle-green handloom saree with dark maroon border and matching blouse, red glass bangles, gold studs and thin thali chain.",
+    "Pechi Paati": "Age 72; deeply wrinkled dusky skin, kind crinkled eyes, gentle toothless smile, wispy silver-white loose bun, tiny gold studs. Modest off-white coarse cotton saree with faded grey border fully covering chest, barefoot.",
+    "Maha": "Age 5; dusky-brown skin, welcoming dark-brown eyes, black pottu, two loose black braids with faded sky-blue ribbons. Faded sky-blue puff-sleeve blouse and coral-pink cotton skirt with cream geometric hem, silver studs, thin black bangles, barefoot.",
+    "Saran": "Age 7; dusky-tan skin, mischievous brown eyes, short messy black hair and white vibuthi stripes. Faded off-white half-sleeve collared shirt and navy knee-length shorts, barefoot.",
+    "Kamala": "Age 6; warm dusky dark-brown skin, playful dark-brown eyes, black pottu, center-parted twin black braids with orange kanakambaram flowers and red ribbons. Deep-red silk blouse and emerald-green silk skirt with gold zari, gold studs and brown sandals.",
+    "Vimala": "Age 6; warm dusky-tan skin, cheeky dark eyes, black pottu, two tight black braids with colorful ribbons. Marigold-yellow silk blouse and royal-purple skirt with gold zari, thin gold bangles and chain, gold studs and brown sandals.",
+    "Rani": "Age 6; warm dusky skin, innocent dark eyes, small red pottu, single thick black braid with white jasmine flowers. Royal-blue silk blouse and magenta-pink skirt with gold zari, gold jimikki earrings, colorful glass bangles and brown sandals.",
+    "Kamalas Mother": "Age 35; light-tan South Indian complexion, sharp dark eyes, maroon bindi, jet-black ornate low bun with white jasmine. Deep burgundy silk saree with gold zari and matching blouse, gold jimikki earrings, temple-pendant chain and gold bangles."
+  },
+  "production_note": "Complete: all 81 text-prompted scene images are saved and verified in story order. Native scene JPGs are 1672x941, approximately 16:9, not native 8K. No missing shots.",
+  "shots": [
+    {
+      "shot": 1,
+      "title": "HOOK – Aftermath of the slap",
+      "characters": "Nila",
+      "direction": "Extreme close-up: only Nila’s eyes and hands; trembling hand against tear-wet cheek, other fist holding crumpled old rupee notes. Dim palm-leaf hut doorway, hurricane lantern and tin trunk. Blue shadows, warm amber rim.",
+      "file": "assets/scenes/001_hook_aftermath.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 2,
+      "title": "HOOK – Father kisses her palms",
+      "characters": "Shanmugam, Nila",
+      "direction": "Close-up: remorseful father gently kisses daughter’s small palms held in his large hands, tears on his face; Nila’s surprised eyes softly blurred above. Matchboxes on floor, distant workers in low tiled shed, smoky bare-bulb light. Wholesome family affection.",
+      "file": "assets/scenes/002_father_kisses_palms.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 3,
+      "title": "Collapsed hut in rain (recap)",
+      "characters": "None",
+      "direction": "Wide establishing shot: collapsed mud-and-thatch hut in dusk rain, broken cot, overturned clay pot, neem tree, distant lantern glow. No people or silhouettes. Indigo and cool moonlight.",
+      "file": "assets/scenes/003_collapsed_hut_recap.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 4,
+      "title": "Pechi Paati offers shelter",
+      "characters": "Pechi Paati",
+      "direction": "Medium eye-level: Paati raises a hurricane lantern and beckons from high wooden threshold of tiled house, fresh kolam, raised thinnai, jute cot inside. Warm amber against cool indigo rain.",
+      "file": "assets/scenes/004_paatii_offers_shelter.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 5,
+      "title": "Nila begins narrating",
+      "characters": "Nila",
+      "direction": "Close-up: Nila looks toward viewer with gently sad eyes and faint smile, inside Paati’s house, jute cot and lantern on low wooden stool, lime-washed wall. Soft amber and blue shadows.",
+      "file": "assets/scenes/005_nila_begins_narrating.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 6,
+      "title": "Parents rebuilding",
+      "characters": "Shanmugam, Sivagami",
+      "direction": "Medium wide in hot daylight: parents carry baskets of stones and sand on heads toward half-built mud wall, sweating; bullock-cart wheel and palm-leaf bundles. Harsh gold sunlight, deep blue shadows. Daylight action overrides conflicting night setting phrase.",
+      "file": "assets/scenes/006_parents_rebuilding.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 7,
+      "title": "Roof being thatched",
+      "characters": "Shanmugam, Sivagami",
+      "direction": "High angle: parents tie palm-leaf thatch to wooden roof frame with coconut rope, sun on backs, half-built mud walls, leaf bundles and clay water pot. Dusty gold and cool shadow.",
+      "file": "assets/scenes/007_roof_being_thatched.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 8,
+      "title": "Mud-stained hands",
+      "characters": "Sivagami hands only",
+      "direction": "Extreme close-up: mother’s cracked mud-stained hands and red glass bangles press wet mud and stones into wall; sweat at wrist. Earthy tones and gold rim.",
+      "file": "assets/scenes/008_mud_stained_hands.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 9,
+      "title": "Nila, Maha and Saran play",
+      "characters": "Nila, Maha, Saran",
+      "direction": "Wide: three children laugh around wooden spinning top in dusty village street, Saran claps, neem leaves drift. Established reference designs retained: Maha age 5 sky-blue/coral; Saran age 7 off-white shirt/navy shorts. Golden-hour joy.",
+      "file": "assets/scenes/009_children_play.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 10,
+      "title": "Maha invites Nila inside",
+      "characters": "Maha, Nila",
+      "direction": "Medium close-up: Maha smiles warmly from doorway and stretches hand to invite Nila, whose back is partly in frame. Tiled house, lime-washed walls, raised thinnai, high wooden threshold, fresh kolam, hanging hurricane lantern and jute cot. Golden glow. Use established Maha sky-blue blouse/coral skirt/blue ribbons, not conflicting green-frock draft.",
+      "file": "assets/scenes/010_maha_invites_nila.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 11,
+      "title": "Feet frozen at the threshold",
+      "characters": "Nila bare feet only",
+      "direction": "Extreme close-up: small dusty bare feet trembling before high wooden threshold, toes curled, kolam beneath, warm light from inside. Dark teal shadows, small amber accent. Explicit bare-foot shot overrides usual sandals.",
+      "file": "assets/scenes/011_feet_at_threshold.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 12,
+      "title": "Looking into the house",
+      "characters": "Nila, Maha",
+      "direction": "Over-the-shoulder from behind Nila: glowing doorway and Maha waiting blurred inside, steel tumbler on jute cot. Raised thinnai, high wooden threshold, fresh kolam, lantern. Warm interior versus Nila’s cool shadow.",
+      "file": "assets/scenes/012_looking_into_house.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 13,
+      "title": "Nila’s fearful face",
+      "characters": "Nila",
+      "direction": "Close-up: wide glistening eyes, trembling lips, small hands gripping skirt edge, frozen with fear. Village mud street beside Paati’s tiled house, lime-washed wall and tulsi altar behind. Dark teal and amber rim.",
+      "file": "assets/scenes/013_nila_fearful_face.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 14,
+      "title": "Flashback – the shut door of Kamala’s house",
+      "characters": "Nila, indistinct adult shadow",
+      "direction": "Medium eye-level: Nila alone, head bowed and fists clenched, outside heavy carved door being shut. Brass fittings, raised thinnai, brass kudam, silk-clad shadow behind half-shut door. Late evening, desaturated teal with small red accent.",
+      "file": "assets/scenes/014_flashback_shut_door.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 15,
+      "title": "Father leads Nila to the new hut",
+      "characters": "Shanmugam, Nila, Sivagami",
+      "direction": "Wide: family walks dusty path at dusk toward new thatched hut; father holds Nila’s hand, mother carries cloth bundle. Coconut palms, tulsi altar, long shadows. Golden dusk fading to indigo.",
+      "file": "assets/scenes/015_family_walks_to_new_hut.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 16,
+      "title": "The new hut",
+      "characters": "Nila",
+      "direction": "Medium eye-level: Nila wide-eyed at doorway, amazed by neat thatch and glossy cow-dung-plasted floor reflecting lantern. Mud-and-stone walls, clay pot, tin trunk. Amber and indigo night.",
+      "file": "assets/scenes/016_the_new_hut.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 17,
+      "title": "Palm on the cool floor",
+      "characters": "Nila hand only",
+      "direction": "Extreme close-up: small palm gently pressed on smooth dark glossy cow-dung floor, lantern reflection and woven mat edge. Soft amber and indigo.",
+      "file": "assets/scenes/017_palm_on_cool_floor.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 18,
+      "title": "Proud little smile",
+      "characters": "Nila",
+      "direction": "Close-up: Nila lies on woven mat beaming with pride, believing floor is cement, lantern on cheek. New hut with glossy earthen floor, clay pot and tin trunk. Golden lantern warmth.",
+      "file": "assets/scenes/018_proud_little_smile.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 19,
+      "title": "Asking Father about electricity",
+      "characters": "Nila, Shanmugam",
+      "direction": "Over Nila’s shoulder: curious face turned up toward father’s gentle warmly rim-lit silhouette beside lantern in dark new hut. Amber against indigo.",
+      "file": "assets/scenes/019_asking_about_electricity.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 20,
+      "title": "Father strokes her head",
+      "characters": "Shanmugam, Nila",
+      "direction": "Close-up: father’s big rough hand gently strokes head of Nila lying on mat; his faint sad smile in side silhouette lit by thin lantern rim. Amber rim on blue shadows.",
+      "file": "assets/scenes/020_father_strokes_head.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 21,
+      "title": "Dreaming of the cement floor",
+      "characters": "Nila asleep",
+      "direction": "High angle: Nila curled asleep on woven mat with tiny smile, subtle golden dreamlike illumination suggesting a bulb-lit home, dim hurricane lantern beside her. No elemental effects. Dreamy gold over indigo.",
+      "file": "assets/scenes/021_dreaming_of_cement_floor.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 22,
+      "title": "Morning light through the thatch",
+      "characters": "Nila waking",
+      "direction": "Low angle: morning sunbeams through gaps in palm thatch fall on Nila sitting up sleepy-eyed on mat, glowing dust motes. New hut transitioning to morning. Soft morning gold.",
+      "file": "assets/scenes/022_morning_through_thatch.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 23,
+      "title": "Fingers touch cow dung",
+      "characters": "Nila hand only",
+      "direction": "Extreme close-up: small fingers lift from smooth green-brown cow-dung floor with faint earthy smear on fingertips, realization conveyed only by hand. Morning light, muted earth and cool blue shadow.",
+      "file": "assets/scenes/023_fingers_touch_cow_dung.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 24,
+      "title": "Mother smooths the dung floor",
+      "characters": "Sivagami",
+      "direction": "Medium eye-level: mother kneels spreading fresh green cow-dung paste in smooth circular palm strokes, steel pot beside her, morning light on tired face. New hut, thatch and clay pot. Muted gold and deep blue shadows.",
+      "file": "assets/scenes/024_mother_smooths_floor.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 25,
+      "title": "Nila’s quiet sadness",
+      "characters": "Nila",
+      "direction": "Close-up: quiet dim face, lowered eyes, single tear, joy gone. New hut doorway, clay pot, soft morning light. Cool blue shadows with soft gold rim.",
+      "file": "assets/scenes/025_nila_quiet_sadness.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 26,
+      "title": "Looking at far-away lit houses",
+      "characters": "Nila from behind",
+      "direction": "Wide: small Nila sits alone on dark hut doorstep looking at distant bulb-lit tiled houses; her home unlit. Coconut palm and black bicycle against wall. Deep indigo twilight with tiny warm bulbs.",
+      "file": "assets/scenes/026_looking_at_lit_houses.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 27,
+      "title": "Reading under the street light",
+      "characters": "Nila",
+      "direction": "Low-angle medium: Nila sits at foot of lone village streetlamp reading brown-paper-covered notebook, yellow manja pai cloth bag beside her, moths overhead, neem tree and stone platform. Indigo night, warm bulb on face.",
+      "file": "assets/scenes/027_reading_under_streetlight.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 28,
+      "title": "Gazing at the bulb",
+      "characters": "Nila",
+      "direction": "Close-up: Nila looks up longingly at streetlamp, bulb reflected in shining eyes, small mosquito bite on cheek, hopeful and sad. Moths in light. Indigo and warm bulb rim.",
+      "file": "assets/scenes/028_gazing_at_bulb.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 29,
+      "title": "Father and daughter in the dark hut",
+      "characters": "Shanmugam, Nila",
+      "direction": "Wide from doorway: father sits on floor leaning against wall, Nila beside him, small hurricane-lantern pool and huge shadows on thatch. Clay pot and tin trunk. Indigo with single amber glow.",
+      "file": "assets/scenes/029_father_daughter_dark_hut.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 30,
+      "title": "The innocent question",
+      "characters": "Nila",
+      "direction": "Close-up: Nila looks up with big innocent curious eyes and parted lips as if asking a question, lantern light on face. Mud hut at night. Soft amber and blue shadows.",
+      "file": "assets/scenes/030_innocent_question.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 31,
+      "title": "Father lowers his eyes",
+      "characters": "Shanmugam",
+      "direction": "Medium side shot: father in faded veshti and white cotton banian sits head lowered and shoulders slumped, silently staring at floor, lantern lighting one side of face. Clay pot nearby. Indigo and amber rim.",
+      "file": "assets/scenes/031_father_lowers_eyes.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 32,
+      "title": "A tear forms",
+      "characters": "Shanmugam eyes only",
+      "direction": "Extreme close-up: father’s tired dark eyes brimming with one tear about to fall, lantern flame reflected. Mud wall behind. High-contrast blue and amber.",
+      "file": "assets/scenes/032_a_tear_forms.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 33,
+      "title": "Nila is shocked",
+      "characters": "Nila",
+      "direction": "Close-up: eyes widen in shock, mouth slightly open, startled by what she has heard. Dim hut, lantern, mud wall and clay pot. Blue shadows and warm rim.",
+      "file": "assets/scenes/033_nila_is_shocked.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 34,
+      "title": "Father hugs her tight",
+      "characters": "Shanmugam, Nila",
+      "direction": "Medium eye-level: fully clothed father hugs daughter in wholesome family comfort, his face hidden against her shoulder, her wide wet eyes visible over his arm. Lantern behind. Deep blue and amber rim.",
+      "file": "assets/scenes/034_father_hugs_her.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 35,
+      "title": "A hot tear on her hand",
+      "characters": "Nila and Shanmugam hands only",
+      "direction": "Extreme close-up: one glistening tear falls onto Nila’s small hand held in father’s big rough hand, lantern glow in drop. High-contrast blue shadows and warm rim.",
+      "file": "assets/scenes/035_tear_on_her_hand.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 36,
+      "title": "Nila decides to protect him",
+      "characters": "Nila",
+      "direction": "Close-up: wet eyes become firm and determined, jaw set, golden rim on face. Dim hut and lantern. Deep blue and gold, quiet courage.",
+      "file": "assets/scenes/036_nila_decides.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 37,
+      "title": "Sneaking out at dawn",
+      "characters": "Nila from behind",
+      "direction": "Wide: tiny Nila tiptoes alone down misty village road between paddy fields and palms, hut far behind, long small shadow, first sun on palm tops. Indigo mist and thin golden sunrise.",
+      "file": "assets/scenes/037_sneaking_out_dawn.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 38,
+      "title": "Walking from school",
+      "characters": "Nila, distant schoolchildren",
+      "direction": "Medium eye-level: Nila with faded yellow manja pai and slate hurries away from tiled government school against flow of laughing children, worried backward glance, neem tree and long evening shadows. Golden hour with tension.",
+      "file": "assets/scenes/038_walking_from_school.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 39,
+      "title": "The lie to mother",
+      "characters": "Nila, Sivagami from behind",
+      "direction": "Over mother’s shoulder: Nila gives nervous forced smile while claiming to go play, fear hidden in eyes. Hut doorstep, thatch, clay pot and kolam, evening. Gold with thin dark-teal edge.",
+      "file": "assets/scenes/039_lie_to_mother.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 40,
+      "title": "Match factory at evening",
+      "characters": "None",
+      "direction": "Wide exterior: long low tiled match-work shed at dusk, bare yellow bulb through open doorway, faint haze, dirt road and old bicycle against wall. No people or human silhouettes, honoring explicit no-characters instruction over conflicting background-worker draft. Indigo and smoky yellow.",
+      "file": "assets/scenes/040_match_factory_evening.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 41,
+      "title": "Inside the factory",
+      "characters": "Nila, tired women and children",
+      "direction": "Medium eye-level: little Nila sits cross-legged among modestly dressed workers on dusty floor, bent over wooden matchstick frame, manja pai beside her. Low tiled shed, rows of matchboxes, one bare bulb and faint haze. Smoky yellow and blue shadows. Non-graphic depiction of child labor.",
+      "file": "assets/scenes/041_inside_factory.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 42,
+      "title": "Stacking matchsticks",
+      "characters": "Nila fingers only",
+      "direction": "Extreme close-up: tiny fingers arrange red-tipped matchsticks in wooden frame, little matchboxes stacked nearby. Factory floor and bare-bulb glow. Warm yellow and blue shadows.",
+      "file": "assets/scenes/042_stacking_matchsticks.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 43,
+      "title": "Choking chemical haze",
+      "characters": "Nila",
+      "direction": "Close-up: Nila scrunches nose and blinks watering eyes against sharp smell, faint yellow haze across face, still holding one unlit matchstick. Matchbox bundles and bulb. Sickly yellow and cool blue, no flames.",
+      "file": "assets/scenes/043_choking_haze.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 44,
+      "title": "Burning fingertips",
+      "characters": "Nila hand only",
+      "direction": "Extreme close-up: small fingertips reddened and stained by match chemicals tremble slightly over matchbox, no open wounds. Factory floor and bundles. High-contrast blue and warm rim.",
+      "file": "assets/scenes/044_burning_fingertips.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 45,
+      "title": "Bravely smiling",
+      "characters": "Nila",
+      "direction": "Medium close-up: Nila holds back discomfort with brave small smile while working, eyes shining with love for parents, warm rim on cheek. Bare bulb and matchbox bundles. Blue shadows and gold.",
+      "file": "assets/scenes/045_bravely_smiling.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 46,
+      "title": "First wage in her hand",
+      "characters": "Nila, supervisor hand only",
+      "direction": "Medium close-up: rough adult hand gives Nila a 1990s-era fifty-rupee note at wooden counter; her small hands receive it with delighted smile. Factory corner and bare bulb. Bright gold and soft blue.",
+      "file": "assets/scenes/046_first_wage.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 47,
+      "title": "Hiding the money",
+      "characters": "Nila",
+      "direction": "High angle: Nila crouches in hut corner tucking folded rupee notes into small knotted cloth behind tin trunk, nervous glance at door. Clay pot and lantern at night. Dark teal with amber accent.",
+      "file": "assets/scenes/047_hiding_money.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 48,
+      "title": "Asking for anklets",
+      "characters": "Nila, Shanmugam",
+      "direction": "Medium eye-level: Nila tugs father’s hand with bright hopeful eyes asking for silver anklets while he sits with steel plate of kanji, caught off guard. Hut doorstep, kolam and lantern, evening. Gold and soft indigo.",
+      "file": "assets/scenes/048_asking_for_anklets.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 49,
+      "title": "The father’s lie begins",
+      "characters": "Shanmugam",
+      "direction": "Close-up: father forces gentle nervous smile and raises one finger to lips as if sharing a secret, eyes secretly sad. Hut doorstep, lantern and mud wall. Amber and cool blue.",
+      "file": "assets/scenes/049_fathers_lie_begins.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 50,
+      "title": "The imagined money tree",
+      "characters": "None",
+      "direction": "Wide child’s-imagination landscape: small tree with glowing golden-yellow rupee-like blossoms in sunlit field behind mud wall, black crow on branch, distant coconut palms. No people. Dreamy fairy-tale gold, no elemental effects.",
+      "file": "assets/scenes/050_imagined_money_tree.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 51,
+      "title": "Counting dresses on her fingers",
+      "characters": "Nila",
+      "direction": "Close-up: Nila counts on small fingers with dreamy grin imagining four new dresses for one fruit, stick propped beside her like guard’s staff. Hut doorstep, clay pot and rope clothesline with faded frocks. Bright golden light.",
+      "file": "assets/scenes/051_counting_dresses.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 52,
+      "title": "Bragging to Kamala",
+      "characters": "Nila, Kamala",
+      "direction": "Medium eye-level: Nila excitedly spreads arms telling Kamala about money tree under tamarind tree, manja pai on shoulder; Kamala listens. Government school yard, tiled classroom, wooden bench and slate. Golden afternoon.",
+      "file": "assets/scenes/052_bragging_to_kamala.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 53,
+      "title": "Kamala listens open-mouthed",
+      "characters": "Kamala",
+      "direction": "Close-up: Kamala wide-eyed and open-mouthed in wonder, innocent but slightly sly, tamarind leaves and tiled classroom blurred behind. Golden light and soft shadows.",
+      "file": "assets/scenes/053_kamala_listens.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 54,
+      "title": "Diwali approaches the village",
+      "characters": "Nila small in crowd, villagers",
+      "direction": "Wide: village streets busy with Diwali shopping, children holding paper crackers, colorful silk frocks outside cloth shop, tea stall with glass tumblers; tiny Nila gazes at dresses. Thatched/tiled homes, neem platform and kolams. Festive orange and gold.",
+      "file": "assets/scenes/054_diwali_approaches.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 55,
+      "title": "Parents worrying outside the hut",
+      "characters": "Shanmugam, Sivagami from behind",
+      "direction": "Medium wide: parents sit close on ground outside hut at night, heads bent in worry, hurricane lantern between them, tulsi altar and starry sky. Indigo moonlight and warm lantern.",
+      "file": "assets/scenes/055_parents_worrying.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 56,
+      "title": "Father’s voice breaks",
+      "characters": "Shanmugam",
+      "direction": "Close-up: father’s face crumples with worry, eyes glistening as he speaks of daughter’s Diwali dress, lantern rim on cheek. Outside hut, mud wall and stars. Blue shadows and amber rim.",
+      "file": "assets/scenes/056_fathers_voice_breaks.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 57,
+      "title": "Nila listens in the dark",
+      "characters": "Nila",
+      "direction": "Medium side view: Nila lies on mat pretending to sleep, eyes open and listening, thin line of outside lantern light across face. Thatch, tin trunk and clay pot. Deep indigo and thin amber rim.",
+      "file": "assets/scenes/057_nila_listens_dark.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 58,
+      "title": "Untying the cloth knot",
+      "characters": "Nila hands only",
+      "direction": "Extreme close-up: small fingers untie tiny knotted cloth revealing folded old rupee notes behind tin trunk, lantern glow on paper. Soft amber and indigo.",
+      "file": "assets/scenes/058_untying_cloth_knot.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 59,
+      "title": "Giving the money to father",
+      "characters": "Nila, Shanmugam",
+      "direction": "Over Nila’s shoulder: her small hands offer folded notes to father, proud hopeful smile partly visible, father facing viewer softly blurred. Outside hut at night, ground lantern and stars. Amber over indigo.",
+      "file": "assets/scenes/059_giving_money_father.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 60,
+      "title": "Father freezes and looks to the sky",
+      "characters": "Shanmugam",
+      "direction": "Medium close-up: father freezes in shock, throat tightening, eyes darting to heavens, notes trembling in hand. Outside hut, lantern and stars. Dark teal with amber accent.",
+      "file": "assets/scenes/060_father_freezes.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 61,
+      "title": "Father’s face hardens",
+      "characters": "Shanmugam",
+      "direction": "Low-angle close-up: father’s face hardens in anxious anger, brows tight, lantern from below casting heavy shadows. Dark hut doorway and mud wall. Dark teal and small red accent, no violence shown.",
+      "file": "assets/scenes/061_father_face_hardens.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 62,
+      "title": "Shadow on the wall",
+      "characters": "Shadows only of Shanmugam and Nila",
+      "direction": "Medium eye-level: towering father shadow looms over small shrinking child shadow on mud wall, lantern flame at edge, clay pot and thatch. No visible faces or physical action. Dark teal and amber.",
+      "file": "assets/scenes/062_shadow_on_wall.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 63,
+      "title": "Tear-stained, uneaten meal",
+      "characters": "Nila asleep",
+      "direction": "High angle: Nila curled on woven mat with tear tracks, steel plate of cold kanji and untouched banana leaf beside her, lantern burnt low. Deep indigo and weak amber.",
+      "file": "assets/scenes/063_uneaten_meal.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 64,
+      "title": "Mother follows her to the factory",
+      "characters": "Nila distant, Sivagami",
+      "direction": "Wide: little Nila walks toward match shed on sunlit mud road while mother quietly follows, peering behind neem trunk with pallu clutched in fist. Palms and cart track. Pale morning gold and dark-teal edge.",
+      "file": "assets/scenes/064_mother_follows.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 65,
+      "title": "Mother sees Nila working",
+      "characters": "Sivagami from behind, Nila distant, workers",
+      "direction": "Over mother’s shoulder in factory doorway: tiny Nila hunched among workers with matchsticks, bare bulb above. Tiled shed, dusty floor and matchbox rows. Smoky yellow and blue shadows.",
+      "file": "assets/scenes/065_mother_sees_work.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 66,
+      "title": "Evening, bringing father",
+      "characters": "Sivagami, Shanmugam",
+      "direction": "Wide: mother holds and leads puzzled work-weary father toward glowing factory doorway at sunset, long shadows ahead, old black bicycle by wall. Burnt orange and deep teal.",
+      "file": "assets/scenes/066_evening_bringing_father.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 67,
+      "title": "Father runs to Nila",
+      "characters": "Shanmugam, Nila, background workers",
+      "direction": "Low-angle medium: father rushes across factory floor with open arms and streaming tears, matchboxes scattering; Nila looks up surprised. Rows of workers and bare bulb. High-contrast blue and warm rim.",
+      "file": "assets/scenes/067_father_runs_to_nila.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 68,
+      "title": "Small hands holding his hand",
+      "characters": "Nila and Shanmugam hands only",
+      "direction": "Extreme close-up: Nila’s tiny hands grip father’s trembling hand and gently pull it down, interrupting self-directed distress; tear on joined hands. No injury or impact. Scattered matchboxes. Blue shadows and warm rim.",
+      "file": "assets/scenes/068_small_hands_hold_his.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 69,
+      "title": "The silent factory",
+      "characters": "Shanmugam, Nila, Sivagami, workers",
+      "direction": "Wide: fully clothed family embraces at center under single bare bulb, surrounding women and children pause silently with matchboxes. Low tiled shed, dusty floor and haze. Deep blue and golden rim.",
+      "file": "assets/scenes/069_silent_factory.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 70,
+      "title": "Asking for the Diwali dress",
+      "characters": "Nila, Sivagami blurred",
+      "direction": "Close-up: Nila looks up at mother with yearning eyes and trembling hopeful lips asking whether dress was bought. Hut doorstep, kolam, tulsi altar, Diwali eve. Dusk gold and soft indigo.",
+      "file": "assets/scenes/070_asking_diwali_dress.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 71,
+      "title": "Waiting for the last bus",
+      "characters": "Nila from behind",
+      "direction": "Wide: tiny Nila sits at lonely village roadside bus stop beside hurricane lantern, watching distant old TNSTC-style bus headlights, tamarind tree and starry sky. Indigo with warm distant headlights.",
+      "file": "assets/scenes/071_waiting_last_bus.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 72,
+      "title": "Jumping with joy at father’s return",
+      "characters": "Nila, Shanmugam",
+      "direction": "Medium eye-level: Nila leaps up smiling as father emerges from darkness carrying jowli cloth bag, lantern lighting both. Village road, coconut and tamarind trees. Amber over indigo.",
+      "file": "assets/scenes/072_joy_father_returns.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 73,
+      "title": "Opening the parcel",
+      "characters": "Nila hands only",
+      "direction": "Extreme close-up: small hands open brown-paper parcel and jowli bag to reveal folded mustard-yellow pavadai-sattai with coffee-brown flower prints. Hut doorstep and lantern. Golden amber and soft blue.",
+      "file": "assets/scenes/073_opening_parcel.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 74,
+      "title": "Smelling the new cloth",
+      "characters": "Nila",
+      "direction": "Close-up: Nila hugs folded new mustard-yellow printed dress to face, eyes closed in bliss, palms reddened with fresh marudhani mehndi. Woven mat and lantern, dawn beginning. Golden light and soft blue. Dress not yet worn.",
+      "file": "assets/scenes/074_smelling_new_cloth.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 75,
+      "title": "Diwali morning in the new dress",
+      "characters": "Nila",
+      "direction": "Medium eye-level: Nila in mustard-yellow pavadai-sattai with coffee-brown flowers, two oiled braids with red bows and mehndi palms, smiles proudly at a small paper cracker on ground. Maintain safe distance, no hand-held explosive. Village kolams, diyas and neem platform. Bright Diwali morning gold.",
+      "file": "assets/scenes/075_diwali_new_dress.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 76,
+      "title": "Rich girls in silk",
+      "characters": "Kamala, Vimala, Rani, Kamala’s Mother, Nila",
+      "direction": "Wide: three wealthy girls in established silk outfits at center; Kamala’s mother approaches smirking; small Nila in plain mustard-yellow printed cotton dress stands apart at edge. Diwali village street. Bright festive light with cold teal around Nila.",
+      "file": "assets/scenes/076_rich_girls_silk.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 77,
+      "title": "The mocking smile",
+      "characters": "Kamala’s Mother",
+      "direction": "Low-angle close-up: wealthy mother looks down with sarcastic smirk and mocking laugh, gold jimikki earrings and jasmine bun catching sun. Blurred thatched village and kolam. Harsh bright light and cold teal shadow.",
+      "file": "assets/scenes/077_mocking_smile.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 78,
+      "title": "Nila’s heart breaks",
+      "characters": "Nila, blurred silk figures",
+      "direction": "Extreme close-up: Nila’s wide trembling eyes fill with tears and smile collapses, wearing mustard-yellow printed Diwali dress, tiny cracker-light reflection in wet eyes. Blurred silk figures behind. High-contrast blue and thin gold rim.",
+      "file": "assets/scenes/078_nila_heart_breaks.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 79,
+      "title": "Crying alone in the hut",
+      "characters": "Nila",
+      "direction": "High angle: Nila in mustard-yellow printed dress curls on woven mat sobbing into arms, dress modestly arranged, tin trunk and clay pot nearby, thin daylight through doorway. Deep indigo and narrow cold light.",
+      "file": "assets/scenes/079_crying_alone.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 80,
+      "title": "The dress that was father’s sweat",
+      "characters": "Nila small hand only",
+      "direction": "Extreme close-up: folded mustard-yellow pavadai with coffee-brown flowers and a dark tear spot lies on hut floor, woven mat edge and clay pot, small hand resting on cloth, thin ray across fabric. No visible face or figure. Cool blue and golden rim.",
+      "file": "assets/scenes/080_fathers_sweat_dress.jpg",
+      "status": "completed"
+    },
+    {
+      "shot": 81,
+      "title": "Closing – hut door shut all day",
+      "characters": "Nila small at doorway",
+      "direction": "Single wide establishing composition: hut exterior at Diwali dusk, woven-palm door almost closed, Nila’s small face peeks through narrow opening with quiet tearful look toward viewer, unlit lantern nearby, distant neighbors’ diyas and high festive cracker glows. Deep indigo and soft gold on face. One image, not a two-panel shot.",
+      "file": "assets/scenes/081_hut_door_closed.jpg",
+      "status": "completed"
+    }
+  ],
+  "last_batch": {
+    "batch": 9,
+    "attempted_shots": [
+      79,
+      80,
+      81
+    ],
+    "saved_shots": [
+      79,
+      80,
+      81
+    ],
+    "deferred_shots": [],
+    "note": "Final three images generated successfully. All 81 shots are complete and verified."
+  }
+}
