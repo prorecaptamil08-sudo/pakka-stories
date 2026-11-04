@@ -5,3 +5,5 @@ node_modules
 out
 dist
 *.mp4
+deliverables/*.mp4
+deliverables/*.zip

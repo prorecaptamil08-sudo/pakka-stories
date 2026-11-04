@@ -18,6 +18,25 @@ assets, no downloaded footage, and no burned-in subtitles.
 
 ---
 
+## 0. Where the finished files live
+
+Delivered files are written to **`deliverables/`** — not to `out/` or `dist/`. Those two
+are Remotion/package scratch folders and are excluded from this workspace's snapshots, so
+anything left there disappears between sessions.
+
+```
+deliverables/final-video.mp4                       the 1080p master
+deliverables/pakka-stories-uncertainty-episode.zip the source project
+```
+
+If the browser or `node_modules` is missing (a fresh sandbox), restore it with:
+
+```bash
+npm install
+npm install --no-save @sparticuz/chromium@153.0.0
+node scripts/setup-browser.mjs        # -> /tmp/chromium, /tmp/al/{lib,fonts}
+```
+
 ## 1. Quick start
 
 ```bash
@@ -32,11 +51,12 @@ npm run start
 
 ## 2. The final render command
 
-This is the exact command that produced the delivery master `out/final-video.mp4`
+This is the exact command that produced the delivery master `deliverables/final-video.mp4`
 (1920x1080, CRF 18, x264 slow, AAC 320 kbps).
 
 ```bash
-npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+mkdir -p deliverables
+npx remotion render src/index.ts AwakenEpisode deliverables/final-video.mp4 \
   --codec=h264 \
   --crf=18 \
   --concurrency=2 \
@@ -53,9 +73,9 @@ If Chromium cannot be downloaded in your environment, point Remotion at an exist
 browser binary:
 
 ```bash
-npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+npx remotion render src/index.ts AwakenEpisode deliverables/final-video.mp4 \
   --codec=h264 --crf=18 --concurrency=2 \
-  --browser-executable=/path/to/chrome --chrome-mode=chrome-for-testing
+  --browser-executable=/tmp/chromium --chrome-mode=chrome-for-testing
 ```
 
 ## 3. Project layout
@@ -89,7 +109,8 @@ scripts/
   check-preview.mjs       inspects the rendered MP4 (streams, frames, A/V offset)
   plot-audio.mjs          writes dist/audio-check.png (waveform + ducking proof)
   contact-sheet.mjs       tiles rendered stills into review sheets
-  package-project.mjs     builds dist/pakka-stories-uncertainty-episode.zip
+  setup-browser.mjs       restores a headless Chromium without network access
+  package-project.mjs     builds deliverables/pakka-stories-uncertainty-episode.zip
 public/
   audio/narration.wav     final mixed narration stem (28 lines, 127.43 s)
   audio/narration/        per-line stems + source TTS takes + timing metadata

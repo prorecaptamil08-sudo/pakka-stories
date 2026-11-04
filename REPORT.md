@@ -15,9 +15,9 @@ The final render was run after explicit approval.
 
 | Artefact | Path | Size |
 |---|---|---|
-| **Final master** (1920x1080, CRF 18, x264 slow, AAC 320 kbps, 3823 frames) | `out/final-video.mp4` | 46.4 MB |
+| **Final master** (1920x1080, CRF 18, x264 slow, AAC 320 kbps, 3823 frames) | `deliverables/final-video.mp4` | 46.4 MB |
 | Preview render (960x540, CRF 28, 3823 frames, AAC 48 kHz) | `out/preview.mp4` | 8.4 MB |
-| Complete project archive | `dist/pakka-stories-uncertainty-episode.zip` | 23.0 MB |
+| Complete project archive | `deliverables/pakka-stories-uncertainty-episode.zip` | 23.0 MB |
 | Soundtrack proof sheet | `dist/audio-check.png` | 36 KB |
 | Frame review sheets | `dist/sheet-*.png` | — |
 | This report | `REPORT.md` | — |
@@ -230,19 +230,19 @@ Approved and executed with the delivery command:
 
 ```
 $ LD_LIBRARY_PATH=/tmp/al/lib FONTCONFIG_PATH=/tmp/al/fonts \
-  npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+  npx remotion render src/index.ts AwakenEpisode deliverables/final-video.mp4 \
   --codec=h264 --crf=18 --concurrency=2 --pixel-format=yuv420p \
   --x264-preset=slow --audio-codec=aac --audio-bitrate=320k \
   --browser-executable=/tmp/chromium --chrome-mode=chrome-for-testing
 Rendered 3823/3823
 Encoded  3823/3823
-+                    out/final-video.mp4 48.6 MB          # exit 0, ~19 min wall clock
++                    deliverables/final-video.mp4 48.6 MB          # exit 0, ~19 min wall clock
 ```
 
 Inspected afterwards with the same checker used on the preview:
 
 ```
-$ node scripts/check-preview.mjs out/final-video.mp4
+$ node scripts/check-preview.mjs deliverables/final-video.mp4
 container
   duration      127.445 s (expected 127.433 s)
   size          46.38 MB
@@ -291,7 +291,7 @@ node scripts/check-preview.mjs
 node scripts/package-project.mjs
 
 # delivery master (see README.md §2 for the full flag list)
-npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+npx remotion render src/index.ts AwakenEpisode deliverables/final-video.mp4 \
   --codec=h264 --crf=18 --concurrency=2 --pixel-format=yuv420p \
   --x264-preset=slow --audio-codec=aac --audio-bitrate=320k
 ```
