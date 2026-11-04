@@ -32,9 +32,8 @@ npm run start
 
 ## 2. The final render command
 
-This is the exact command that produces the delivery master. It is deliberately **not**
-run by this project yet — the preview is the last artefact that gets built without
-sign-off.
+This is the exact command that produced the delivery master `out/final-video.mp4`
+(1920x1080, CRF 18, x264 slow, AAC 320 kbps).
 
 ```bash
 npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \

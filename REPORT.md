@@ -10,11 +10,12 @@ Each section quotes the real console output, not an intention.
 
 ## 0. Status in one line
 
-The episode is **built, scored, validated and preview-rendered**. The final full-quality
-master has **deliberately not been rendered** — that step is waiting on your approval.
+The episode is **built, scored, validated, preview-rendered and mastered** at 1080p.
+The final render was run after explicit approval.
 
 | Artefact | Path | Size |
 |---|---|---|
+| **Final master** (1920x1080, CRF 18, x264 slow, AAC 320 kbps, 3823 frames) | `out/final-video.mp4` | 46.4 MB |
 | Preview render (960x540, CRF 28, 3823 frames, AAC 48 kHz) | `out/preview.mp4` | 8.4 MB |
 | Complete project archive | `dist/pakka-stories-uncertainty-episode.zip` | 23.0 MB |
 | Soundtrack proof sheet | `dist/audio-check.png` | 36 KB |
@@ -223,18 +224,61 @@ Frames were reviewed as contact sheets (`dist/sheet-a … sheet-f`, `dist/sheet-
 
 ---
 
-## 5. What is *not* done
+## 5. Final master render
 
-* **The final 1080p master has not been rendered.** The preview is the last artefact this
-  build produces; the master is one command away (see `README.md` §2) and is intentionally
-  left for your go-ahead.
+Approved and executed with the delivery command:
+
+```
+$ LD_LIBRARY_PATH=/tmp/al/lib FONTCONFIG_PATH=/tmp/al/fonts \
+  npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+  --codec=h264 --crf=18 --concurrency=2 --pixel-format=yuv420p \
+  --x264-preset=slow --audio-codec=aac --audio-bitrate=320k \
+  --browser-executable=/tmp/chromium --chrome-mode=chrome-for-testing
+Rendered 3823/3823
+Encoded  3823/3823
++                    out/final-video.mp4 48.6 MB          # exit 0, ~19 min wall clock
+```
+
+Inspected afterwards with the same checker used on the preview:
+
+```
+$ node scripts/check-preview.mjs out/final-video.mp4
+container
+  duration      127.445 s (expected 127.433 s)
+  size          46.38 MB
+  video         h264 1920x1080 @ 30/1 fps, 3823 frames
+  audio         aac 48000 Hz 2 ch
+PASS  frame count is 3823  [3823]
+PASS  duration matches 127.43 s  [127.445 s]
+PASS  audio stream present  [aac]
+
+sync
+  narration-vs-muxed correlation peak at 0 ms (r=0.984)
+PASS  audio offset within +-40 ms of the picture  [0 ms]
+PREVIEW OK
+
+ffprobe:
+  video  h264 1920x1080 yuvj420p 30/1 2 726 380 bps
+  audio  aac  48000 Hz 2 ch 317 375 bps
+  format 127.445 s, 3 052 482 bps, 48 627 957 bytes
+```
+
+Bit rate 2.73 Mbps video / 317 kbps audio; the file is 46.4 MiB for 2:07 of 1080p.
+Remotion writes full-range `yuvj420p` for the h264 encoder — correct for web playback;
+if a broadcast deliverable ever needs limited-range `yuv420p`, re-encode with
+`-vf scale=out_range=tv` instead of re-rendering.
+
+## 6. What is *not* done
+
 * **No reference video was inspected**, because none exists on this machine. The visual
   direction follows the STYLE-PACK text rules quoted in the project, not a video file.
-* Two minor cosmetic items are known and left as-is: the pink curtain in `bedroom_night` is
-  a heavy shape at 1080p, and the "silence" day cards in S09 use deliberately small
-  22 px labels.
+* Two minor cosmetic items are known and left as-is in the delivered master: the pink
+  curtain in `bedroom_night` is a heavy shape at 1080p, and the "silence" day cards in S09
+  use deliberately small 22 px labels. Both are one-line changes if you want them softened.
+* The master is `yuvj420p` (full range). It plays correctly everywhere; only a broadcast
+  pipeline that insists on limited-range `yuv420p` would need a re-encode.
 
-## 6. Reproduce everything
+## 7. Reproduce everything
 
 ```bash
 npm install
@@ -245,4 +289,9 @@ node scripts/validate-episode.mjs
 npm run preview
 node scripts/check-preview.mjs
 node scripts/package-project.mjs
+
+# delivery master (see README.md §2 for the full flag list)
+npx remotion render src/index.ts AwakenEpisode out/final-video.mp4 \
+  --codec=h264 --crf=18 --concurrency=2 --pixel-format=yuv420p \
+  --x264-preset=slow --audio-codec=aac --audio-bitrate=320k
 ```
