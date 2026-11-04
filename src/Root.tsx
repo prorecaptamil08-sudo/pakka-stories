@@ -1,17 +1,19 @@
-import React from "react";
-import { Composition } from "remotion";
-import { PakkaStoriesAnjali } from "./Composition";
-import { TOTAL, FPS } from "./theme";
+import React from 'react';
+import {Composition} from 'remotion';
+import episodeJson from '../episode/episode.json';
+import {EpisodeMaster} from './EpisodeMaster';
+import type {Episode} from './types';
 
-export const Root: React.FC = () => (
-  <>
-    <Composition
-      id="PakkaStoriesAnjali"
-      component={PakkaStoriesAnjali}
-      durationInFrames={TOTAL}
-      fps={FPS}
-      width={1920}
-      height={1080}
-    />
-  </>
+const episode = episodeJson as unknown as Episode;
+
+export const RemotionRoot: React.FC = () => (
+  <Composition
+    id="AwakenEpisode"
+    component={EpisodeMaster}
+    durationInFrames={episode.durationInFrames}
+    fps={episode.fps}
+    width={episode.width}
+    height={episode.height}
+    defaultProps={{episode}}
+  />
 );

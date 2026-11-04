@@ -1,14 +1,27 @@
 {
-  "name": "remotion-project",
+  "name": "pakka-stories-uncertainty-episode",
   "version": "1.0.0",
-  "description": "Permanent Remotion Video Studio",
+  "private": true,
+  "description": "Awaken-style procedural explainer video - \"Why Does Uncertainty Feel Like Chemistry?\" (1920x1080, 30fps, 3823 frames)",
+  "license": "MIT",
   "scripts": {
-    "dev": "remotion preview",
-    "build": "remotion render MyComp out/video.mp4 --concurrency=1",
-    "upgrade": "remotion upgrade"
+    "start": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate-episode.mjs",
+    "audio:sfx": "node scripts/generate-sfx-wavs.mjs public/audio/sfx",
+    "audio:music": "node scripts/generate-music.mjs public/audio/music",
+    "audio:narration": "node scripts/build-narration.mjs",
+    "still": "remotion still src/index.ts AwakenEpisode out/still.png --frame=300",
+    "preview": "remotion render src/index.ts AwakenEpisode out/preview.mp4 --codec=h264 --crf=28 --scale=0.5 --concurrency=2",
+    "build": "remotion render src/index.ts AwakenEpisode out/final-video.mp4 --codec=h264 --crf=18 --concurrency=2",
+    "package": "node scripts/package-project.mjs"
   },
   "dependencies": {
+    "@fontsource/caveat": "^5.2.5",
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/montserrat": "^5.2.5",
     "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remotion": "4.0.539"

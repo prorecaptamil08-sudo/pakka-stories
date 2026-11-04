@@ -1,0 +1,1737 @@
+{
+  "$schema": "../STYLE-PACK/schemas/episode.schema.json",
+  "episodeId": "ep_uncertainty_001",
+  "title": "Why Does Uncertainty Feel Like Chemistry?",
+  "channel": "Pakka Stories",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "aspectRatio": "16:9",
+  "subtitles": false,
+  "bodyDurationInFrames": 3733,
+  "outroDurationInFrames": 90,
+  "durationInFrames": 3823,
+  "audio": {
+    "narrationFile": "audio/narration.wav",
+    "narrationGain": 1,
+    "narrationDirectory": "audio/narration/",
+    "musicDuckDb": -9,
+    "musicTracks": [
+      {
+        "id": "mvt1_curiosity",
+        "movement": "Mvt 1 - Quirky Curiosity",
+        "src": "audio/music/mvt1_curiosity.mp3",
+        "startFrame": 0,
+        "endFrame": 1442,
+        "volume": 0.3
+      },
+      {
+        "id": "mvt2_relief",
+        "movement": "Mvt 2 - Tension and Relief",
+        "src": "audio/music/mvt2_relief.mp3",
+        "startFrame": 1442,
+        "endFrame": 2264,
+        "volume": 0.3
+      },
+      {
+        "id": "mvt3_doubt",
+        "movement": "Mvt 3 - Doubt and Distance",
+        "src": "audio/music/mvt3_doubt.mp3",
+        "startFrame": 2264,
+        "endFrame": 2861,
+        "volume": 0.3
+      },
+      {
+        "id": "mvt4_clarity",
+        "movement": "Mvt 4 - Clarity",
+        "src": "audio/music/mvt4_clarity.mp3",
+        "startFrame": 2861,
+        "endFrame": 3399,
+        "volume": 0.3
+      },
+      {
+        "id": "mvt5_outro",
+        "movement": "Mvt 5 - Resolution and Outro",
+        "src": "audio/music/mvt5_outro.mp3",
+        "startFrame": 3399,
+        "endFrame": 3823,
+        "volume": 0.32
+      }
+    ],
+    "narrationLines": [
+      {
+        "cueIndex": 0,
+        "file": "audio/narration/line_00.wav",
+        "startFrame": 0,
+        "cueEndFrame": 124,
+        "windowFrames": 124
+      },
+      {
+        "cueIndex": 1,
+        "file": "audio/narration/line_01.wav",
+        "startFrame": 124,
+        "cueEndFrame": 199,
+        "windowFrames": 75
+      },
+      {
+        "cueIndex": 2,
+        "file": "audio/narration/line_02.wav",
+        "startFrame": 199,
+        "cueEndFrame": 349,
+        "windowFrames": 150
+      },
+      {
+        "cueIndex": 3,
+        "file": "audio/narration/line_03.wav",
+        "startFrame": 349,
+        "cueEndFrame": 542,
+        "windowFrames": 193
+      },
+      {
+        "cueIndex": 4,
+        "file": "audio/narration/line_04.wav",
+        "startFrame": 542,
+        "cueEndFrame": 707,
+        "windowFrames": 165
+      },
+      {
+        "cueIndex": 5,
+        "file": "audio/narration/line_05.wav",
+        "startFrame": 707,
+        "cueEndFrame": 788,
+        "windowFrames": 81
+      },
+      {
+        "cueIndex": 6,
+        "file": "audio/narration/line_06.wav",
+        "startFrame": 788,
+        "cueEndFrame": 939,
+        "windowFrames": 151
+      },
+      {
+        "cueIndex": 7,
+        "file": "audio/narration/line_07.wav",
+        "startFrame": 939,
+        "cueEndFrame": 1137,
+        "windowFrames": 198
+      },
+      {
+        "cueIndex": 8,
+        "file": "audio/narration/line_08.wav",
+        "startFrame": 1137,
+        "cueEndFrame": 1275,
+        "windowFrames": 138
+      },
+      {
+        "cueIndex": 9,
+        "file": "audio/narration/line_09.wav",
+        "startFrame": 1275,
+        "cueEndFrame": 1442,
+        "windowFrames": 167
+      },
+      {
+        "cueIndex": 10,
+        "file": "audio/narration/line_10.wav",
+        "startFrame": 1442,
+        "cueEndFrame": 1604,
+        "windowFrames": 162
+      },
+      {
+        "cueIndex": 11,
+        "file": "audio/narration/line_11.wav",
+        "startFrame": 1604,
+        "cueEndFrame": 1707,
+        "windowFrames": 103
+      },
+      {
+        "cueIndex": 12,
+        "file": "audio/narration/line_12.wav",
+        "startFrame": 1707,
+        "cueEndFrame": 1784,
+        "windowFrames": 77
+      },
+      {
+        "cueIndex": 13,
+        "file": "audio/narration/line_13.wav",
+        "startFrame": 1784,
+        "cueEndFrame": 1954,
+        "windowFrames": 170
+      },
+      {
+        "cueIndex": 14,
+        "file": "audio/narration/line_14.wav",
+        "startFrame": 1954,
+        "cueEndFrame": 2099,
+        "windowFrames": 145
+      },
+      {
+        "cueIndex": 15,
+        "file": "audio/narration/line_15.wav",
+        "startFrame": 2099,
+        "cueEndFrame": 2264,
+        "windowFrames": 165
+      },
+      {
+        "cueIndex": 16,
+        "file": "audio/narration/line_16.wav",
+        "startFrame": 2264,
+        "cueEndFrame": 2404,
+        "windowFrames": 140
+      },
+      {
+        "cueIndex": 17,
+        "file": "audio/narration/line_17.wav",
+        "startFrame": 2404,
+        "cueEndFrame": 2513,
+        "windowFrames": 109
+      },
+      {
+        "cueIndex": 18,
+        "file": "audio/narration/line_18.wav",
+        "startFrame": 2513,
+        "cueEndFrame": 2587,
+        "windowFrames": 74
+      },
+      {
+        "cueIndex": 19,
+        "file": "audio/narration/line_19.wav",
+        "startFrame": 2587,
+        "cueEndFrame": 2722,
+        "windowFrames": 135
+      },
+      {
+        "cueIndex": 20,
+        "file": "audio/narration/line_20.wav",
+        "startFrame": 2722,
+        "cueEndFrame": 2861,
+        "windowFrames": 139
+      },
+      {
+        "cueIndex": 21,
+        "file": "audio/narration/line_21.wav",
+        "startFrame": 2861,
+        "cueEndFrame": 2986,
+        "windowFrames": 125
+      },
+      {
+        "cueIndex": 22,
+        "file": "audio/narration/line_22.wav",
+        "startFrame": 2986,
+        "cueEndFrame": 3148,
+        "windowFrames": 162
+      },
+      {
+        "cueIndex": 23,
+        "file": "audio/narration/line_23.wav",
+        "startFrame": 3148,
+        "cueEndFrame": 3214,
+        "windowFrames": 66
+      },
+      {
+        "cueIndex": 24,
+        "file": "audio/narration/line_24.wav",
+        "startFrame": 3214,
+        "cueEndFrame": 3399,
+        "windowFrames": 185
+      },
+      {
+        "cueIndex": 25,
+        "file": "audio/narration/line_25.wav",
+        "startFrame": 3399,
+        "cueEndFrame": 3470,
+        "windowFrames": 71
+      },
+      {
+        "cueIndex": 26,
+        "file": "audio/narration/line_26.wav",
+        "startFrame": 3470,
+        "cueEndFrame": 3590,
+        "windowFrames": 120
+      },
+      {
+        "cueIndex": 27,
+        "file": "audio/narration/line_27.wav",
+        "startFrame": 3590,
+        "cueEndFrame": 3732,
+        "windowFrames": 142
+      }
+    ]
+  },
+  "cues": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 4.14,
+      "text": "One day, they make you feel like the most interesting person in the room."
+    },
+    {
+      "index": 1,
+      "start": 4.14,
+      "end": 6.64,
+      "text": "The next, they barely reply."
+    },
+    {
+      "index": 2,
+      "start": 6.64,
+      "end": 11.64,
+      "text": "And somehow, the less certain you feel, the more you think about them. Why?"
+    },
+    {
+      "index": 3,
+      "start": 11.64,
+      "end": 18.06,
+      "text": "Have you ever noticed how an unanswered message can occupy your mind longer than a great conversation?"
+    },
+    {
+      "index": 4,
+      "start": 18.06,
+      "end": 23.56,
+      "text": "It's tempting to call that chemistry, but sometimes what feels like intense attraction"
+    },
+    {
+      "index": 5,
+      "start": 23.56,
+      "end": 26.26,
+      "text": "may be partly fueled by uncertainty."
+    },
+    {
+      "index": 6,
+      "start": 26.26,
+      "end": 31.3,
+      "text": "When you don't know where you stand, your mind starts searching for clues."
+    },
+    {
+      "index": 7,
+      "start": 31.3,
+      "end": 37.9,
+      "text": "You replay the compliment. You analyze the delay. You wonder what that one emoji really meant."
+    },
+    {
+      "index": 8,
+      "start": 37.9,
+      "end": 42.5,
+      "text": "Every detail feels important because you're trying to answer one question."
+    },
+    {
+      "index": 9,
+      "start": 42.5,
+      "end": 48.06,
+      "text": "Do they like me? And when you can't find an answer, it's easy to keep thinking about it."
+    },
+    {
+      "index": 10,
+      "start": 48.06,
+      "end": 53.48,
+      "text": "Then, there are the moments when they do give you attention. A kind message arrives after days of silence,"
+    },
+    {
+      "index": 11,
+      "start": 53.48,
+      "end": 56.9,
+      "text": "and suddenly you feel relieved."
+    },
+    {
+      "index": 12,
+      "start": 56.9,
+      "end": 59.48,
+      "text": "The connection seems exciting again."
+    },
+    {
+      "index": 13,
+      "start": 59.48,
+      "end": 65.12,
+      "text": "That swing between uncertainty and relief can make it harder to step back and see the whole pattern,"
+    },
+    {
+      "index": 14,
+      "start": 65.12,
+      "end": 69.98,
+      "text": "but it doesn't automatically mean the other person is manipulating you."
+    },
+    {
+      "index": 15,
+      "start": 69.98,
+      "end": 75.48,
+      "text": "Sometimes, people are simply busy, unsure, or looking for something different."
+    },
+    {
+      "index": 16,
+      "start": 75.48,
+      "end": 80.14,
+      "text": "The problem is that uncertainty also leaves room for imagination."
+    },
+    {
+      "index": 17,
+      "start": 80.14,
+      "end": 83.78,
+      "text": "Maybe you focus on who they could become"
+    },
+    {
+      "index": 18,
+      "start": 83.78,
+      "end": 86.22,
+      "text": "instead of how they treat you right now."
+    },
+    {
+      "index": 19,
+      "start": 86.22,
+      "end": 90.74,
+      "text": "So ask yourself, do their actions generally match their words?"
+    },
+    {
+      "index": 20,
+      "start": 90.74,
+      "end": 95.36,
+      "text": "Can you talk honestly about what you want? Do you feel respected?"
+    },
+    {
+      "index": 21,
+      "start": 95.36,
+      "end": 99.52,
+      "text": "Thinking about someone constantly isn't proof that they're right for you."
+    },
+    {
+      "index": 22,
+      "start": 99.52,
+      "end": 104.94,
+      "text": "Sometimes, your mind is working overtime because it needs clarity,"
+    },
+    {
+      "index": 23,
+      "start": 104.94,
+      "end": 107.14,
+      "text": "and you don't have to decode every signal alone."
+    },
+    {
+      "index": 24,
+      "start": 107.14,
+      "end": 113.3,
+      "text": "When it feels right, ask a clear question, listen to the answer, and notice what happens next."
+    },
+    {
+      "index": 25,
+      "start": 113.3,
+      "end": 115.68,
+      "text": "Because attraction can feel exciting,"
+    },
+    {
+      "index": 26,
+      "start": 115.68,
+      "end": 119.68,
+      "text": "but clarity helps you decide what's actually good for you."
+    },
+    {
+      "index": 27,
+      "start": 119.68,
+      "end": 124.41,
+      "text": "What's one sign of a healthy connection you value? Share it in the comments."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "startFrame": 0,
+      "durationInFrames": 124,
+      "act": 1,
+      "environment": "cafe_day",
+      "cameraPreset": "pull_back_reveal",
+      "narrationCues": [
+        0
+      ],
+      "hud": {
+        "calendarBadge": "DAY 1"
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "idle_stand",
+          "expression": "happy",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1500,
+          "facing": "left",
+          "pose": "talk",
+          "expression": "talking",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chat_bubbles"
+      },
+      "transitionOut": "white_flash",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 10,
+          "cue": "sfx_bubble_pop"
+        },
+        {
+          "frameOffset": 38,
+          "cue": "sfx_bubble_pop"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_bubble_pop"
+        },
+        {
+          "frameOffset": 110,
+          "cue": "sfx_whoosh"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "startFrame": 124,
+      "durationInFrames": 75,
+      "act": 1,
+      "environment": "bedroom_night",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        1
+      ],
+      "hud": {
+        "calendarBadge": "DAY 4"
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "hold_phone",
+          "expression": "worried",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "phone_seen"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 0,
+          "cue": "sfx_phone_buzz"
+        },
+        {
+          "frameOffset": 50,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "startFrame": 199,
+      "durationInFrames": 150,
+      "act": 1,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        2
+      ],
+      "hud": {
+        "counterBadge": {
+          "label": "CERTAINTY",
+          "startValue": 85,
+          "endValue": 20,
+          "suffix": "%",
+          "mode": "linear"
+        },
+        "summaryPill": {
+          "text": "less certain, more thinking",
+          "variant": "info",
+          "appearAtFrameOffset": 80
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "certainty_meter"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 12,
+          "cue": "sfx_counter_tick"
+        },
+        {
+          "frameOffset": 46,
+          "cue": "sfx_counter_tick"
+        },
+        {
+          "frameOffset": 60,
+          "cue": "sfx_counter_tick"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "startFrame": 349,
+      "durationInFrames": 193,
+      "act": 1,
+      "environment": "bedroom_night",
+      "cameraPreset": "drift_left",
+      "narrationCues": [
+        3
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "an open loop stays on your mind",
+          "variant": "gold",
+          "appearAtFrameOffset": 80
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "hold_phone",
+          "expression": "worried",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "msg_vs_chat"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 55,
+          "cue": "sfx_heart_thud"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "startFrame": 542,
+      "durationInFrames": 246,
+      "act": 1,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        4,
+        5
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "intensity can be fueled by uncertainty",
+          "variant": "gold",
+          "appearAtFrameOffset": 170
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "skeptical",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chemistry_eq"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 30,
+          "cue": "sfx_counter_tick"
+        },
+        {
+          "frameOffset": 100,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 120,
+          "cue": "sfx_riser"
+        },
+        {
+          "frameOffset": 170,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "startFrame": 788,
+      "durationInFrames": 151,
+      "act": 1,
+      "environment": "mind_blueprint",
+      "cameraPreset": "drift_left",
+      "narrationCues": [
+        6
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "no answer, so the mind searches",
+          "variant": "info",
+          "appearAtFrameOffset": 60
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "clue_search"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_magnify"
+        },
+        {
+          "frameOffset": 22,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 60,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 110,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "startFrame": 939,
+      "durationInFrames": 198,
+      "act": 2,
+      "environment": "bedroom_night",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        7
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 330,
+          "facing": "right",
+          "pose": "slump",
+          "expression": "worried",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "replay_list"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_page_turn"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_page_turn"
+        },
+        {
+          "frameOffset": 132,
+          "cue": "sfx_page_turn"
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "startFrame": 1137,
+      "durationInFrames": 305,
+      "act": 2,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        8,
+        9
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 300,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "worried",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "detail_orbit"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 8,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 60,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 138,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "startFrame": 1442,
+      "durationInFrames": 265,
+      "act": 2,
+      "environment": "bedroom_night",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        10,
+        11
+      ],
+      "hud": {
+        "calendarBadge": "DAY 5"
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 330,
+          "facing": "right",
+          "pose": "slump",
+          "expression": "worried",
+          "rimLightSide": "left",
+          "poseAfter": "hold_phone",
+          "exprAfter": "happy",
+          "switchFrame": 150
+        }
+      ],
+      "widget": {
+        "type": "silence_message"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 0,
+          "cue": "sfx_page_turn"
+        },
+        {
+          "frameOffset": 140,
+          "cue": "sfx_phone_ping"
+        },
+        {
+          "frameOffset": 200,
+          "cue": "sfx_sparkle"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "startFrame": 1707,
+      "durationInFrames": 77,
+      "act": 2,
+      "environment": "bedroom_night",
+      "cameraPreset": "pull_back_reveal",
+      "narrationCues": [
+        12
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 330,
+          "facing": "right",
+          "pose": "celebrate",
+          "expression": "happy",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "relief_burst"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_sparkle"
+        },
+        {
+          "frameOffset": 8,
+          "cue": "sfx_whoosh"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "startFrame": 1784,
+      "durationInFrames": 170,
+      "act": 2,
+      "environment": "mind_blueprint",
+      "cameraPreset": "drift_left",
+      "narrationCues": [
+        13
+      ],
+      "hud": {
+        "calendarBadge": "THE PATTERN",
+        "summaryPill": {
+          "text": "uncertainty and relief, back and forth",
+          "variant": "info",
+          "appearAtFrameOffset": 100
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 300,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "swing_wave"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 0,
+          "cue": "sfx_marker"
+        },
+        {
+          "frameOffset": 60,
+          "cue": "sfx_marker"
+        },
+        {
+          "frameOffset": 100,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "startFrame": 1954,
+      "durationInFrames": 145,
+      "act": 2,
+      "environment": "classroom_chalkboard",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        14
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 190,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "skeptical",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1730,
+          "facing": "left",
+          "pose": "talk",
+          "expression": "talking",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chalk_text",
+        "props": {
+          "lines": [
+            {
+              "text": "the swing",
+              "at": 6,
+              "x": 960,
+              "y": 340,
+              "size": 84,
+              "color": "#e8ebe6"
+            },
+            {
+              "text": "doesn't automatically mean",
+              "at": 40,
+              "x": 960,
+              "y": 460,
+              "size": 72,
+              "color": "#e8ebe6"
+            },
+            {
+              "text": "manipulation",
+              "at": 80,
+              "x": 960,
+              "y": 590,
+              "size": 92,
+              "color": "#e6c93a",
+              "mark": {
+                "type": "cross",
+                "x": 1310,
+                "y": 545,
+                "at": 110
+              }
+            }
+          ]
+        }
+      },
+      "transitionOut": "amber_circle_iris",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 96,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 110,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 131,
+          "cue": "sfx_whoosh"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "startFrame": 2099,
+      "durationInFrames": 165,
+      "act": 3,
+      "environment": "cafe_day",
+      "cameraPreset": "static_wide",
+      "narrationCues": [
+        15
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "idle_stand",
+          "expression": "curious",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1800,
+          "targetX": 1500,
+          "moveStart": 0,
+          "moveEnd": 50,
+          "facing": "left",
+          "pose": "walk_cycle",
+          "poseAfter": "talk",
+          "expression": "neutral",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chips",
+        "props": {
+          "y": 430,
+          "arrows": false,
+          "items": [
+            {
+              "text": "BUSY",
+              "color": "#6495ed"
+            },
+            {
+              "text": "UNSURE",
+              "color": "#b39ddb"
+            },
+            {
+              "text": "WANTS SOMETHING|different",
+              "color": "#64d8cb"
+            }
+          ]
+        }
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 74,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "startFrame": 2264,
+      "durationInFrames": 140,
+      "act": 3,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        16
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 300,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "imagination"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_sparkle"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "startFrame": 2404,
+      "durationInFrames": 183,
+      "act": 3,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        17,
+        18
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "focus on how they treat you right now",
+          "variant": "gold",
+          "appearAtFrameOffset": 100
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 230,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "skeptical",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "split_compare"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 14,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 90,
+          "cue": "sfx_marker"
+        },
+        {
+          "frameOffset": 100,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "startFrame": 2587,
+      "durationInFrames": 135,
+      "act": 4,
+      "environment": "classroom_chalkboard",
+      "cameraPreset": "drift_left",
+      "narrationCues": [
+        19
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 190,
+          "facing": "right",
+          "pose": "talk",
+          "expression": "talking",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1730,
+          "facing": "left",
+          "pose": "chin_think",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chalk_text",
+        "props": {
+          "lines": [
+            {
+              "text": "what they DO",
+              "at": 6,
+              "x": 660,
+              "y": 350,
+              "size": 64,
+              "color": "#e8ebe6"
+            },
+            {
+              "text": "=?",
+              "at": 36,
+              "x": 960,
+              "y": 400,
+              "size": 130,
+              "color": "#e6c93a"
+            },
+            {
+              "text": "what they SAY",
+              "at": 66,
+              "x": 1260,
+              "y": 350,
+              "size": 64,
+              "color": "#e8ebe6"
+            },
+            {
+              "text": "do they match?",
+              "at": 96,
+              "x": 960,
+              "y": 600,
+              "size": 80,
+              "color": "#e6c93a"
+            }
+          ]
+        }
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 96,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 110,
+          "cue": "sfx_chalk_write"
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "startFrame": 2722,
+      "durationInFrames": 139,
+      "act": 4,
+      "environment": "classroom_chalkboard",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        20
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 190,
+          "facing": "right",
+          "pose": "idle_stand",
+          "expression": "happy",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1730,
+          "facing": "left",
+          "pose": "talk",
+          "expression": "talking",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chalk_text",
+        "props": {
+          "lines": [
+            {
+              "text": "1. Can I talk honestly about what I want?",
+              "at": 6,
+              "x": 960,
+              "y": 360,
+              "size": 48,
+              "color": "#e8ebe6",
+              "mark": {
+                "type": "check",
+                "x": 1535,
+                "y": 345,
+                "at": 50
+              }
+            },
+            {
+              "text": "2. Do I feel respected?",
+              "at": 66,
+              "x": 960,
+              "y": 520,
+              "size": 48,
+              "color": "#e8ebe6",
+              "mark": {
+                "type": "check",
+                "x": 1330,
+                "y": 505,
+                "at": 105
+              }
+            }
+          ]
+        }
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 66,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 96,
+          "cue": "sfx_chalk_write"
+        },
+        {
+          "frameOffset": 110,
+          "cue": "sfx_chalk_write"
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "startFrame": 2861,
+      "durationInFrames": 125,
+      "act": 4,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        21
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 300,
+          "facing": "right",
+          "pose": "chin_think",
+          "expression": "worried",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "neq_sign"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 20,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 34,
+          "cue": "sfx_thud"
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "startFrame": 2986,
+      "durationInFrames": 162,
+      "act": 4,
+      "environment": "mind_blueprint",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        22
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 300,
+          "facing": "right",
+          "pose": "slump",
+          "expression": "worried",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "gears"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_gear"
+        },
+        {
+          "frameOffset": 80,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "startFrame": 3148,
+      "durationInFrames": 66,
+      "act": 5,
+      "environment": "sunset_porch",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        23
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "you don't have to decode every signal alone",
+          "variant": "gold",
+          "appearAtFrameOffset": 14
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 780,
+          "facing": "right",
+          "pose": "seated",
+          "expression": "worried",
+          "rimLightSide": "right",
+          "exprAfter": "happy",
+          "switchFrame": 36
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1750,
+          "targetX": 1100,
+          "moveStart": 0,
+          "moveEnd": 50,
+          "facing": "left",
+          "pose": "walk_cycle",
+          "poseAfter": "seated_talk",
+          "expression": "happy",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "none"
+      },
+      "transitionOut": "warm_sunset_dissolve",
+      "sfxCues": [
+        {
+          "frameOffset": 14,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 52,
+          "cue": "sfx_whoosh"
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "startFrame": 3214,
+      "durationInFrames": 185,
+      "act": 5,
+      "environment": "cafe_day",
+      "cameraPreset": "slow_creep_in",
+      "narrationCues": [
+        24
+      ],
+      "hud": {},
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "talk",
+          "expression": "talking",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1500,
+          "facing": "left",
+          "pose": "idle_stand",
+          "expression": "curious",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "chips",
+        "props": {
+          "y": 430,
+          "arrows": true,
+          "items": [
+            {
+              "text": "ASK|a clear question",
+              "color": "#e6c93a"
+            },
+            {
+              "text": "LISTEN|to the answer",
+              "color": "#64d8cb"
+            },
+            {
+              "text": "NOTICE|what happens next",
+              "color": "#ff7eb6"
+            }
+          ]
+        }
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": [
+        {
+          "frameOffset": 6,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 40,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 74,
+          "cue": "sfx_badge_pop"
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "startFrame": 3399,
+      "durationInFrames": 191,
+      "act": 5,
+      "environment": "sunset_porch",
+      "cameraPreset": "slow_push_in",
+      "narrationCues": [
+        25,
+        26
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "clarity helps you decide what's good for you",
+          "variant": "gold",
+          "appearAtFrameOffset": 100
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 640,
+          "facing": "right",
+          "pose": "seated_talk",
+          "expression": "happy",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1280,
+          "facing": "left",
+          "pose": "seated",
+          "expression": "curious",
+          "rimLightSide": "left"
+        }
+      ],
+      "widget": {
+        "type": "spark_to_clarity"
+      },
+      "transitionOut": "rack_focus_blur",
+      "sfxCues": [
+        {
+          "frameOffset": 0,
+          "cue": "sfx_sparkle"
+        },
+        {
+          "frameOffset": 60,
+          "cue": "sfx_sparkle"
+        },
+        {
+          "frameOffset": 70,
+          "cue": "sfx_riser"
+        },
+        {
+          "frameOffset": 100,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 177,
+          "cue": "sfx_riser"
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "startFrame": 3590,
+      "durationInFrames": 143,
+      "act": 5,
+      "environment": "cafe_day",
+      "cameraPreset": "pull_back_reveal",
+      "narrationCues": [
+        27
+      ],
+      "hud": {
+        "summaryPill": {
+          "text": "Share it in the comments",
+          "variant": "gold",
+          "appearAtFrameOffset": 20
+        }
+      },
+      "characters": [
+        {
+          "characterId": "protagonist_a",
+          "x": 420,
+          "facing": "right",
+          "pose": "talk",
+          "expression": "happy",
+          "rimLightSide": "right"
+        },
+        {
+          "characterId": "protagonist_b",
+          "x": 1500,
+          "facing": "left",
+          "pose": "talk",
+          "expression": "happy",
+          "rimLightSide": "right"
+        }
+      ],
+      "widget": {
+        "type": "comment_card"
+      },
+      "transitionOut": "rack_focus_blur",
+      "sfxCues": [
+        {
+          "frameOffset": 10,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 20,
+          "cue": "sfx_badge_pop"
+        },
+        {
+          "frameOffset": 30,
+          "cue": "sfx_heart_thud"
+        },
+        {
+          "frameOffset": 129,
+          "cue": "sfx_riser"
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "startFrame": 3733,
+      "durationInFrames": 90,
+      "act": 6,
+      "kind": "outro",
+      "environment": "cafe_day",
+      "cameraPreset": "static_wide",
+      "narrationCues": [],
+      "hud": {},
+      "characters": [],
+      "widget": {
+        "type": "none"
+      },
+      "transitionOut": "hard_cut",
+      "sfxCues": []
+    }
+  ]
+}

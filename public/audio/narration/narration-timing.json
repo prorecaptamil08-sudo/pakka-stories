@@ -1,0 +1,287 @@
+{
+  "generatedBy": "scripts/build-narration.mjs",
+  "sampleRate": 44100,
+  "peakGainDb": -0.4,
+  "lines": [
+    {
+      "cueIndex": 0,
+      "startFrame": 0,
+      "endFrame": 123,
+      "startSeconds": 0,
+      "durationSeconds": 4.103,
+      "tempoApplied": 1.217,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 1,
+      "startFrame": 124,
+      "endFrame": 158,
+      "startSeconds": 4.14,
+      "durationSeconds": 1.122,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 2,
+      "startFrame": 199,
+      "endFrame": 323,
+      "startSeconds": 6.64,
+      "durationSeconds": 4.12,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 3,
+      "startFrame": 349,
+      "endFrame": 509,
+      "startSeconds": 11.64,
+      "durationSeconds": 5.333,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 4,
+      "startFrame": 542,
+      "endFrame": 684,
+      "startSeconds": 18.06,
+      "durationSeconds": 4.731,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 5,
+      "startFrame": 707,
+      "endFrame": 764,
+      "startSeconds": 23.56,
+      "durationSeconds": 1.913,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 6,
+      "startFrame": 788,
+      "endFrame": 924,
+      "startSeconds": 26.26,
+      "durationSeconds": 4.54,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 7,
+      "startFrame": 939,
+      "endFrame": 1106,
+      "startSeconds": 31.3,
+      "durationSeconds": 5.557,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 8,
+      "startFrame": 1137,
+      "endFrame": 1273,
+      "startSeconds": 37.9,
+      "durationSeconds": 4.535,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 9,
+      "startFrame": 1275,
+      "endFrame": 1449,
+      "startSeconds": 42.5,
+      "durationSeconds": 5.797,
+      "tempoApplied": 1.3,
+      "overrunsCue": true,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 10,
+      "startFrame": 1442,
+      "endFrame": 1603,
+      "startSeconds": 48.06,
+      "durationSeconds": 5.385,
+      "tempoApplied": 1.207,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 11,
+      "startFrame": 1604,
+      "endFrame": 1669,
+      "startSeconds": 53.48,
+      "durationSeconds": 2.158,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 12,
+      "startFrame": 1707,
+      "endFrame": 1761,
+      "startSeconds": 56.9,
+      "durationSeconds": 1.8,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 13,
+      "startFrame": 1784,
+      "endFrame": 1952,
+      "startSeconds": 59.48,
+      "durationSeconds": 5.57,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 14,
+      "startFrame": 1954,
+      "endFrame": 2090,
+      "startSeconds": 65.12,
+      "durationSeconds": 4.547,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 15,
+      "startFrame": 2099,
+      "endFrame": 2221,
+      "startSeconds": 69.98,
+      "durationSeconds": 4.067,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 16,
+      "startFrame": 2264,
+      "endFrame": 2376,
+      "startSeconds": 75.48,
+      "durationSeconds": 3.716,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 17,
+      "startFrame": 2404,
+      "endFrame": 2509,
+      "startSeconds": 80.14,
+      "durationSeconds": 3.491,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 18,
+      "startFrame": 2513,
+      "endFrame": 2570,
+      "startSeconds": 83.78,
+      "durationSeconds": 1.871,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 19,
+      "startFrame": 2587,
+      "endFrame": 2692,
+      "startSeconds": 86.22,
+      "durationSeconds": 3.499,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 20,
+      "startFrame": 2722,
+      "endFrame": 2836,
+      "startSeconds": 90.74,
+      "durationSeconds": 3.798,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 21,
+      "startFrame": 2861,
+      "endFrame": 2970,
+      "startSeconds": 95.36,
+      "durationSeconds": 3.644,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 22,
+      "startFrame": 2986,
+      "endFrame": 3117,
+      "startSeconds": 99.52,
+      "durationSeconds": 4.397,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 23,
+      "startFrame": 3148,
+      "endFrame": 3213,
+      "startSeconds": 104.94,
+      "durationSeconds": 2.151,
+      "tempoApplied": 1.227,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 24,
+      "startFrame": 3214,
+      "endFrame": 3398,
+      "startSeconds": 107.14,
+      "durationSeconds": 6.124,
+      "tempoApplied": 1.038,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 25,
+      "startFrame": 3399,
+      "endFrame": 3462,
+      "startSeconds": 113.3,
+      "durationSeconds": 2.091,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 26,
+      "startFrame": 3470,
+      "endFrame": 3566,
+      "startSeconds": 115.68,
+      "durationSeconds": 3.173,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    },
+    {
+      "cueIndex": 27,
+      "startFrame": 3590,
+      "endFrame": 3717,
+      "startSeconds": 119.68,
+      "durationSeconds": 4.22,
+      "tempoApplied": 1,
+      "overrunsCue": false,
+      "unusedOffset": 0
+    }
+  ]
+}
